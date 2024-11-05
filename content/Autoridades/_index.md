@@ -15,7 +15,6 @@ keywords = [ "abanderados", "autoridades", "et12", "san martin", "rector" ]
 {{<autoridades>}}
 
 # Abanderados
-
-![Abanderados](/imgs/Abanderados.jpg "Nuestros abanderados 2024")
+[![Nuestros abanderados 2024](Actual.jpg?lightbox=false "Nuestros abanderados 2024")](Abanderados/_index.md)
 
 {{<abanderados>}}

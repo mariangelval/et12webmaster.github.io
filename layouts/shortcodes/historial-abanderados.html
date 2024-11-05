@@ -1,0 +1,14 @@
+<link rel="stylesheet" type="text/css" href="/css/autoridades.css">
+
+{{ range $.Site.Data.abanderados2.abanderados }}
+<h3>Ciclo {{ .Ciclo }}</h3>
+<img src="/autoridades/{{ .Ciclo }}.jpg" alt="Nuestros abanderados del Ciclo {{ .Ciclo }}">
+{{ range .alumnos }}
+<div>
+    <h5>{{ .nombre }} {{ .apellido }}</h5>
+    <p>{{ .mencion }}</p>
+    <p>{{ .curso }}</p>
+    <p>{{ .especialidad }}</p>
+</div>
+{{ end }}
+{{ end }}
